@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="c1">
+        <button class="c2" bindtap="logtap">登记商机</button>
+        <button class="c2" bindtap="searchtap">商机查重</button>
+        <button class="c2" bindtap="databasetap">数据库</button>
+    </view>
+</view>

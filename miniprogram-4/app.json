@@ -1,0 +1,19 @@
+{
+    "cloud": true,
+    "pages": [
+        "pages/agreement/agreement",
+        "pages/index/index",
+        "pages/log/log",
+        "pages/search/search",
+        "pages/uploadsuccess/uploadsuccess",
+        "pages/database/database"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "Weixin",
+        "navigationBarTextStyle": "black"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

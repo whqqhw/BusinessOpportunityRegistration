@@ -1,0 +1,81 @@
+<view class="page-body">
+
+    <view class="page-section">
+        <view class="weui-cells__title">客户名/单位名<text class="c5">*</text>:</view>
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell weui-cell_input">
+                <input style="width: 680rpx; height: 104rpx; display: block; box-sizing: border-box" class="weui-input" value="{{ClientOrUnitName}}" placeholder="点击输入客户名/单位名" bindinput="input1" />
+            </view>
+        </view>
+    </view>
+    <view class="page-section">
+        <view class="weui-cells__title">法人名称:</view>
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell weui-cell_input">
+                <input style="width: 680rpx; height: 104rpx; display: block; box-sizing: border-box" class="weui-input" value="{{LegalPerson}}" placeholder="点击输入法人名称" bindinput="input2" />
+            </view>
+        </view>
+    </view>
+    <view class="page-section">
+        <view class="weui-cells__title">联系电话<text class="c5">*</text>:</view>
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell weui-cell_input">
+                <input style="width: 680rpx; height: 104rpx; display: block; box-sizing: border-box" class="weui-input" value="{{ContactNumber}}" placeholder="点击输入联系电话" bindinput="input3" />
+            </view>
+        </view>
+    </view>
+    <view class="page-section">
+        <view class="weui-cells__title">装机地址<text class="c5">*</text>:</view>
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell weui-cell_input">
+                <input style="width: 680rpx; height: 104rpx; display: block; box-sizing: border-box" class="weui-input" value="{{Address}}" placeholder="点击输入装机地址" bindinput="input4" />
+            </view>
+        </view>
+    </view>
+    <view class="page-section">
+        <view class="weui-cells__title">商机内容<text class="c5">*</text>:</view>
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell weui-cell_input">
+                <input style="width: 680rpx; height: 104rpx; display: block; box-sizing: border-box" class="weui-input" value="{{Detial}}" placeholder="点击输入商机内容" bindinput="input5" />
+            </view>
+        </view>
+    </view>
+    <view class="page-section">
+        <view class="weui-cells__title">商机上报人<text class="c5">*</text>:</view>
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell weui-cell_input">
+                <input style="width: 680rpx; height: 104rpx; display: block; box-sizing: border-box" class="weui-input" value="{{ReportingPerson}}" placeholder="点击输入商机上报人" bindinput="input6" />
+            </view>
+        </view>
+    </view>
+    <view class="weui-cells__title">营业执照图片:</view>
+    <view class="c6" hidden="{{hidden_choose1}}">
+        <image mode="widthFix" src="{{picfilePath1}}"></image>
+    </view>
+    <view class="c2">
+        <button bindtap="choosepic1" class="c1">选择营业执照图片</button>
+    </view>
+    <view class="weui-cells__title">客户/法人身份证正反面图片:</view>
+    <view class="c6" hidden="{{hidden_choose2}}">
+        <image mode="widthFix" src="{{picfilePath2}}"></image>
+    </view>
+    <view class="c2">
+        <button bindtap="choosepic2" class="c1">选择客户/法人身份证正反面图片</button>
+    </view>
+    <view class="weui-cells__title">盖公章意向书图片:</view>
+    <view class="c6" hidden="{{hidden_choose3}}">
+        <image mode="widthFix" src="{{picfilePath3}}"></image>
+    </view>
+    <view class="c2">
+        <button bindtap="choosepic3" class="c1">选择盖公章意向书图片</button>
+    </view>
+    <view class="c3">
+        <text class="c4">Tips:以上三项图片至少选择两项才能上传。</text>
+    </view>
+    <view class="c2">
+        <button bindtap="CheckInput" class="c1">上报商机</button>
+    </view>
+    <view class="c2">
+        <button bindtap="reChoosePic" class="c1"><text class="c5">重新选择图片</text></button>
+    </view>
+</view>

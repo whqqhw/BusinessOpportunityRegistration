@@ -1,0 +1,39 @@
+<!--pages/search/search.wxml-->
+<view class="page-body">
+
+    <view class="page-section">
+        <view class="weui-cells__title">客户名/单位名:</view>
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell weui-cell_input" style="width: 690rpx; height: 104rpx; display: flex; box-sizing: content-box; left: 0rpx; top: 0rpx">
+                <input style="width: 678rpx; height: 104rpx; display: block; box-sizing: border-box" class="weui-input" placeholder="点击输入客户名/单位名" bindinput="input1" />
+            </view>
+        </view>
+    </view>
+    <view class="page-section">
+        <view class="weui-cells__title">法人名称:</view>
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell weui-cell_input">
+                <input style="width: 680rpx; height: 104rpx; display: block; box-sizing: border-box" class="weui-input" placeholder="点击输入法人名称" bindinput="input2" />
+            </view>
+        </view>
+    </view>
+    <view class="page-section">
+        <view class="weui-cells__title">联系电话:</view>
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell weui-cell_input">
+                <input style="width: 680rpx; height: 104rpx; display: block; box-sizing: border-box" class="weui-input" placeholder="点击输入联系电话" bindinput="input3" />
+            </view>
+        </view>
+    </view>
+    <view class="page-section">
+        <view class="weui-cells__title">装机地址:</view>
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell weui-cell_input">
+                <input style="width: 680rpx; height: 104rpx; display: block; box-sizing: border-box" class="weui-input" placeholder="点击输入装机地址" bindinput="input4" />
+            </view>
+        </view>
+    </view>
+    <view class="c2">
+        <button bindtap="search" class="c1">商机信息查重</button>
+    </view>
+</view>

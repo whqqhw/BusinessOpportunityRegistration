@@ -1,0 +1,19 @@
+/* pages/agreement/agreement.wxss */
+.c1 {
+    margin-top: 50rpx;
+    margin-bottom: 50rpx;
+    margin-left: 50rpx;
+    margin-right: 50rpx;
+}
+
+.c2 {
+    font-size: small;
+}
+
+.c3 {
+    background-color: rgb(200, 200, 200);
+}
+
+.c4 {
+    height: 100rpx;
+}

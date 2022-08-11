@@ -1,0 +1,7 @@
+<!--pages/uploadsuccess/uploadsuccess.wxml-->
+<view class="c1">
+    <icon class="c2" type="success" size="300rpx"></icon>
+    <view class="c2"><text class="c4">完成！</text></view>
+    <view class="c2"><text class="c3">\n为确保商机上报成功，</text></view>
+    <view class="c2"><text class="c3">\n请务必到数据库确认！</text></view>
+</view>

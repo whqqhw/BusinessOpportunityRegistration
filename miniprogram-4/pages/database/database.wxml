@@ -1,0 +1,90 @@
+<!--pages/database/database.wxml-->
+<view>
+    <view class="c1">
+        <button class="c4" bindtap="searchdatabase">点击查询数据库</button>
+    </view>
+    <view hidden="{{Hide}}" class="c6">
+        <text class="c5">公告：数据库最近于{{Month}}月{{Date}}号进行了清理</text>
+    </view>
+    <view class="c7">
+        <view class="c1">
+            <text class="c2">客户名/单位名称：{{ClientOrUnitName1}}</text>
+            <text>\n法人名称：{{LegalPerson1}}</text>
+            <text>\n联系电话：{{ContactNumber1}}</text>
+            <text>\n装机地址：{{Address1}}</text>
+            <text>\n商机内容：{{Detial1}}</text>
+            <text>\n商机上报人：{{ReportingPerson1}}</text>
+            <text>\n上报时间：{{ReportingTime1}}</text>
+            <view class="c3">
+                <image bindtap="Pictap11" lazy-load="true" mode="widthFix" src="{{PicID11}}"></image>
+                <image bindtap="Pictap21" lazy-load="true" mode="widthFix" src="{{PicID21}}"></image>
+                <image bindtap="Pictap31" lazy-load="true" mode="widthFix" src="{{PicID31}}"></image>
+            </view>
+        </view>
+    </view>
+    <view class="c7">
+        <view class="c1">
+            <text class="c2">客户名/单位名称：{{ClientOrUnitName2}}</text>
+            <text>\n法人名称：{{LegalPerson2}}</text>
+            <text>\n联系电话：{{ContactNumber2}}</text>
+            <text>\n装机地址：{{Address2}}</text>
+            <text>\n商机内容：{{Detial2}}</text>
+            <text>\n商机上报人：{{ReportingPerson2}}</text>
+            <text>\n上报时间：{{ReportingTime2}}</text>
+            <view class="c3">
+                <image bindtap="Pictap12" lazy-load="true" mode="widthFix" src="{{PicID12}}"></image>
+                <image bindtap="Pictap22" lazy-load="true" mode="widthFix" src="{{PicID22}}"></image>
+                <image bindtap="Pictap32" lazy-load="true" mode="widthFix" src="{{PicID32}}"></image>
+            </view>
+        </view>
+    </view>
+    <view class="c7">
+        <view class="c1">
+            <text class="c2">客户名/单位名称：{{ClientOrUnitName3}}</text>
+            <text>\n法人名称：{{LegalPerson3}}</text>
+            <text>\n联系电话：{{ContactNumber3}}</text>
+            <text>\n装机地址：{{Address3}}</text>
+            <text>\n商机内容：{{Detial3}}</text>
+            <text>\n商机上报人：{{ReportingPerson3}}</text>
+            <text>\n上报时间：{{ReportingTime3}}</text>
+            <view class="c3">
+                <image bindtap="Pictap13" lazy-load="true" mode="widthFix" src="{{PicID13}}"></image>
+                <image bindtap="Pictap23" lazy-load="true" mode="widthFix" src="{{PicID23}}"></image>
+                <image bindtap="Pictap33" lazy-load="true" mode="widthFix" src="{{PicID33}}"></image>
+            </view>
+        </view>
+    </view>
+    <view class="c7">
+        <view class="c1">
+            <text class="c2">客户名/单位名称：{{ClientOrUnitName4}}</text>
+            <text>\n法人名称：{{LegalPerson4}}</text>
+            <text>\n联系电话：{{ContactNumber4}}</text>
+            <text>\n装机地址：{{Address4}}</text>
+            <text>\n商机内容：{{Detial4}}</text>
+            <text>\n商机上报人：{{ReportingPerson4}}</text>
+            <text>\n上报时间：{{ReportingTime4}}</text>
+            <view class="c3">
+                <image bindtap="Pictap14" lazy-load="true" mode="widthFix" src="{{PicID14}}"></image>
+                <image bindtap="Pictap24" lazy-load="true" mode="widthFix" src="{{PicID24}}"></image>
+                <image bindtap="Pictap34" lazy-load="true" mode="widthFix" src="{{PicID34}}"></image>
+            </view>
+        </view>
+    </view>
+    <view class="c7">
+        <view class="c1">
+            <text class="c2">客户名/单位名称：{{ClientOrUnitName5}}</text>
+            <text>\n法人名称：{{LegalPerson5}}</text>
+            <text>\n联系电话：{{ContactNumber5}}</text>
+            <text>\n装机地址：{{Address5}}</text>
+            <text>\n商机内容：{{Detial5}}</text>
+            <text>\n商机上报人：{{ReportingPerson5}}</text>
+            <text>\n上报时间：{{ReportingTime5}}</text>
+            <view class="c3">
+                <image bindtap="Pictap15" lazy-load="true" mode="widthFix" src="{{PicID15}}"></image>
+                <image bindtap="Pictap25" lazy-load="true" mode="widthFix" src="{{PicID25}}"></image>
+                <image bindtap="Pictap35" lazy-load="true" mode="widthFix" src="{{PicID35}}"></image>
+            </view>
+        </view>
+    </view>
+
+</view>

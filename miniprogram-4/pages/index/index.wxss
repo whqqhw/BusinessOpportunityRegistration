@@ -1,0 +1,12 @@
+/**index.wxss**/
+.c1{
+    height: 500rpx;
+    width: 400rpx;
+    display: flex;
+    flex-direction: column;
+    justify-Content: space-around;
+}
+
+.c2{
+    background-color: rgb(190, 190, 190);
+}
